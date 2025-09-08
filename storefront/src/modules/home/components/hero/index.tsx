@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div
       className="h-[75vh] w-full border-b border-ui-border-base relative bg-cover bg-center"
-      style={{ backgroundImage: "url('../assets/hero.jpg')" }}
+      style={{ backgroundImage: "url('/assets/hero.jpg')" }}
     >
       <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-center px-6 gap-6">
         <Heading level="h1" className="text-4xl md:text-5xl text-white font-normal">
